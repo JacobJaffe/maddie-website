@@ -47,18 +47,18 @@ const Contact = ({ children, offset }) => (
     </Content>
     <Divider speed={0.1} offset={offset}>
       <UpDown>
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
-        <SVG icon="triangle" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
+        <SVG icon="quill" hiddenMobile width={8} fill={colors['purple-light']} left="70%" top="20%" />
+        <SVG icon="book" width={8} fill={colors['purple-lighter']} left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="triangle" width={12} stroke={colors.white} left="95%" top="50%" />
-        <SVG icon="circle" width={6} fill={colors.white} left="85%" top="15%" />
-        <SVG icon="upDown" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
+        <SVG icon="typewriter" width={12} fill={colors.white} left="95%" top="50%" />
+        <SVG icon="keyboard" width={6} fill={colors.white} left="85%" top="15%" />
+        <SVG icon="quill" hiddenMobile width={8} fill={colors['purple']} left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="circle" width={6} fill={colors.white} left="4%" top="20%" />
-      <SVG icon="circle" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
-      <SVG icon="box" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
-      <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
+      <SVG icon="typewriter" width={6} fill={colors.white} left="4%" top="20%" />
+      <SVG icon="book" width={12} fill={colors['purple-dark']} left="70%" top="60%" />
+      <SVG icon="keyboard" width={12} fill={colors['purple']} left="20%" top="30%" />
+      <SVG icon="book" width={8} fill={colors['purple-light']} left="80%" top="70%" />
     </Divider>
   </>
 )
