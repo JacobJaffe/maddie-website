@@ -70,34 +70,22 @@ const Index = () => (
       <Projects offset={1}>
         <Title>Work</Title>
         <ProjectsWrapper>
-          <ProjectCard
-            title="A project?"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-          >
+          <ProjectCard title="A project?" link="" bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </ProjectCard>
-          <ProjectCard
-            title="Another one?"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
+          <ProjectCard title="Another one?" link="" bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)">
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
             laborum.
           </ProjectCard>
           <ProjectCard
             title="Maybe you don't want these..."
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            link=""
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             Curabitur gravida arcu ac tortor dignissim.
           </ProjectCard>
-          <ProjectCard
-            title="That's Okay!"
-            link="https://www.behance.net/gallery/38068151/Eagle"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-          >
+          <ProjectCard title="That's Okay!" link="" bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)">
             Id leo in vitae turpis massa. Bibendum est ultricies integer quis auctor elit sed. Nec ultrices dui sapien
             eget mi proin sed. Netus et malesuada fames ac turpis egestas.
           </ProjectCard>
@@ -123,8 +111,7 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            <a href="https://MySpace.com">MySpace</a> {'&'} <a href="https://www.instagram.com">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
