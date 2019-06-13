@@ -71,32 +71,35 @@ const Index = () => (
         <Title>Work</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
+            title="A project?"
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="Another one?"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
+            title="Maybe you don't want these..."
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            Curabitur gravida arcu ac tortor dignissim.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="That's Okay!"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Id leo in vitae turpis massa. Bibendum est ultricies integer quis auctor elit sed. Nec ultrices dui sapien
+            eget mi proin sed. Netus et malesuada fames ac turpis egestas.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
